@@ -202,7 +202,7 @@ fi
 /opt/gym_venvs/responses_api_models/vllm_model/.venv/bin/pip install xgrammar==0.1.32
 
 # Prune unreachable cache entries
-uv cache clean
+# uv cache clean
 EOF
 
 ENV PATH="/opt/nemo_rl_venv/bin:$PATH"
